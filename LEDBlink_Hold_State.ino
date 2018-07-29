@@ -1,11 +1,5 @@
 #define PIN A0
-/*state: OUTPUT = off, INPUT = on.
- * if(closed){
- *  toggleLED();
- * }else{
- *  setLED(false)
- * }
- */
+
 
 int state = HIGH;
 bool locked = false;
